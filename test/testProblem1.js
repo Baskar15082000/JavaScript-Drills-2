@@ -1,7 +1,7 @@
 const findCar = require("../problem1");
-const inventory = require("../invertory");
-const findCarById = findCar(33);
-let car = findCarById[0];
+const inventory = require("../inventory");
+const carInfo = findCar(inventory, 33);
+let car = carInfo[0];
 console.log(
   "Car " +
     car.id +
