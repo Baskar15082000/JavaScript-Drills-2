@@ -62,10 +62,6 @@ let inventory = [
 ];
 module.exports = inventory;
 
-
-// ==== Problem #3 ====
-// The marketing team wants the car models listed alphabetically on the website. Execute a function to Sort all the car model names into alphabetical order and log the results in the console as it was returned.
-
 // ==== Problem #4 ====
 // The accounting team needs all the years from every car on the lot. Execute a function that will return an array from the dealer data containing only the car years and log the result in the console as it was returned.
 
