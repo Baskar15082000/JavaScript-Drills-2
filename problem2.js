@@ -4,7 +4,7 @@
 //Log the make and model into the console in the format of:
 //("Last car is a *car make goes here* *car model goes here*");
 function findLastCarOnInventory(inventory) {
-  const lastCar = inventory[49];
+  const lastCar = inventory[inventory.length - 1];
   return "Last car is a " + lastCar.car_make + " " + lastCar.car_model;
 }
 module.exports = findLastCarOnInventory;
