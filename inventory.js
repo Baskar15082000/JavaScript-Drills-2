@@ -62,9 +62,6 @@ let inventory = [
 ];
 module.exports = inventory;
 
-// ==== Problem #2 ====
-// The dealer needs the information on the last car in their inventory. Execute a function to find what the make and model of the last car in the inventory is?  Log the make and model into the console in the format of:
-//("Last car is a *car make goes here* *car model goes here*");
 
 // ==== Problem #3 ====
 // The marketing team wants the car models listed alphabetically on the website. Execute a function to Sort all the car model names into alphabetical order and log the results in the console as it was returned.
